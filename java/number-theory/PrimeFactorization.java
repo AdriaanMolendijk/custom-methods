@@ -4,7 +4,7 @@ public class PrimeFactorization {
 
     /**
      * This method returns the prime factorization of a number.
-     * @param l the number to be factorized
+     * @param l the number to be factorized.
      * @return an ArrayList representing the prime factorization.
      */
     public static ArrayList<Long> primeFactorization(long l)
