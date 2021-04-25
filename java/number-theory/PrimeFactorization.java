@@ -7,7 +7,7 @@ public class PrimeFactorization {
      * @param l the number to be factorized
      * @return an ArrayList representing the prime factorization.
      */
-    public static ArrayList<Long> PrimeFactorization(long l)
+    public static ArrayList<Long> primeFactorization(long l)
     {
         ArrayList<Long> primeFactorization = new ArrayList();
         long div = 1;
