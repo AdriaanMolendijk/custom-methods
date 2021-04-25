@@ -4,29 +4,29 @@ public class PrimeFactorization {
 
     /**
      * This method returns the prime factorization of a number.
-     * @param l the number to be factorized.
+     * @param n the number to be factorized
      * @return an ArrayList representing the prime factorization.
      */
-    public static ArrayList<Long> primeFactorization(long l)
+    public static ArrayList<Long> primeFactorization(long n)
     {
         ArrayList<Long> primeFactorization = new ArrayList<Long>();
         long div = 1;
-        while (l != 1)
+        while (n != 1)
         {
             div++;
 
             // if div divides l
-            if (l % div == 0)
+            if (n % div == 0)
             {
                 primeFactorization.add(div);
-                l /= div;
+                n /= div;
                 div--;
                 continue;
             }
 
-            if (div > Math.sqrt(l))
+            if (div > Math.sqrt(n))
             {
-                primeFactorization.add(l);
+                primeFactorization.add(n);
                 break;
             }
         }
