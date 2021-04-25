@@ -9,7 +9,7 @@ public class PrimeFactorization {
      */
     public static ArrayList<Long> primeFactorization(long l)
     {
-        ArrayList<Long> primeFactorization = new ArrayList();
+        ArrayList<Long> primeFactorization = new ArrayList<Long>();
         long div = 1;
         while (l != 1)
         {
