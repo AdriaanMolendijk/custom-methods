@@ -30,7 +30,6 @@ public class PrimeFactorization {
                 break;
             }
         }
-
         return primeFactorization;
     }
 }
