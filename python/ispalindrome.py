@@ -7,4 +7,4 @@ def is_palindrome(s):
         return True
     c1 = s[0]
     c2 = s[-1]
-    return c1 == c2 and is_palindrome(s[1:-2])
+    return c1 == c2 and is_palindrome(s[1:-1])
