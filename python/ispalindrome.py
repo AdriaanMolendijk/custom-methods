@@ -1,6 +1,6 @@
 # This method determines whether a string is palindrome.
 # s the string on which to check the palindrome property.
-# true iff s is palindrome.
+# return true iff s is palindrome.
 def is_palindrome(s):
     l = len(s)
     if l <= 1:
