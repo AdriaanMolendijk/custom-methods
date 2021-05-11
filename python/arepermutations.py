@@ -7,7 +7,7 @@ def are_permutations(n1, n2):
     digits2 = [0 for i in range(10)]
     for c in str(n1):
         digits1[int(c)] = digits1[int(c)] + 1
-    for c in str(n1):
+    for c in str(n2):
         digits2[int(c)] = digits2[int(c)] + 1
     for digit in range(10):
         if digits1[digit] != digits2[digit]:
