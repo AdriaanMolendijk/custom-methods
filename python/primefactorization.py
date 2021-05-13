@@ -5,11 +5,14 @@ def prime_factorization(n):
     factorization = []
     div = 1
     while n != 1:
+        div = div + 1
         if n % div == 0:
             factorization.append(div)
+            n /= div
             div = div - 1
             continue
 
         if div > math.sqrt(n):
-            factorization.append(n)
+            factorization.append(int(n))
             break
+    return factorization
