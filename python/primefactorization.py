@@ -1,20 +1,15 @@
-import math
+# This method returns the prime factorization of a number.
+# l the number to be factorized
+# return an ArrayList representing the prime factorization.
+def prime_factorization(n):
+    factorization = []
+    div = 1
+    while n != 1:
+        if n % div == 0:
+            factorization.append(div)
+            div = div - 1
+            continue
 
-
-# This method determines whether an integer is prime or not.
-# n the number on which to perform the primality test.
-# return true iff n is prime.
-def is_prime(n):
-    if n <= 1:
-        return False
-    if n == 2 or n == 3:
-        return True
-    if n % 2 == 0 or n % 3 == 0:
-        return False
-    for i in range(5, int(math.sqrt(n)) + 1, 6):
-        if n % i == 0 or n % (i+2) == 0:
-            return False
-    return True
-
-
-
+        if div > math.sqrt(n):
+            factorization.append(n)
+            break
