@@ -1,5 +1,5 @@
 # This method returns the prime factorization of a number.
-# l the number to be factorized
+# n the number to be factorized
 # return an ArrayList representing the prime factorization.
 def prime_factorization(n):
     factorization = []
