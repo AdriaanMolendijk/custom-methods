@@ -1,3 +1,5 @@
+import math
+
 # This method returns the prime factorization of a number.
 # n the number to be factorized
 # returns a list representing the prime factorization.
