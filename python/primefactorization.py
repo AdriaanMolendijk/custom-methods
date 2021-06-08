@@ -1,6 +1,6 @@
 # This method returns the prime factorization of a number.
 # n the number to be factorized
-# return an ArrayList representing the prime factorization.
+# returns a list representing the prime factorization.
 def prime_factorization(n):
     factorization = []
     div = 1
