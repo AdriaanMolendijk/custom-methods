@@ -1,7 +1,7 @@
 import math
 
 
-# This method returns the prime sieve of all numbers up to a certain limit.
+# This method returns the prime sieve of all numbers up to (and inlcuding) a certain limit.
 # limit the limit of the prime sieve.
 # return a boolean[] representing the sieve up to limit.
 def prime_sieve(limit):
